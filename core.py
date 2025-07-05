@@ -1,4 +1,7 @@
 import time
+from logger import get_logger
+
+logger = get_logger(__name__)
 
 class Taximetro:
     def __init__(self, stop_rate=0.02, move_rate=0.05):
@@ -13,6 +16,7 @@ class Taximetro:
 
     def start_trip(self):
         if not self.trip_active:
+            logger.info("Iniciando viaje")
             self.trip_active = True
             self.state = "stop"
             now = time.time()
@@ -21,10 +25,12 @@ class Taximetro:
 
     def change_state(self, new_state):
         if not self.trip_active or new_state not in ["stop", "moving"]:
+            logger.warning(f"Intento de cambio inválido: viaje activo: {self.trip_active}, nuevo estado: {new_state}")
             return
 
         now = time.time()
         duration = now - self.state_start_time
+        logger.debug(f"Cambiando estado de {self.state} a {new_state}. Duración anterior: {duration:.2f}s")
 
         if self.state == "moving":
             self.moving_time += duration
@@ -36,6 +42,7 @@ class Taximetro:
 
     def stop_trip(self):
         if not self.trip_active:
+            logger.warning("Intento de finalizar un viaje que no está activo")
             return None
 
         now = time.time()
@@ -48,14 +55,19 @@ class Taximetro:
 
         fare = self.stop_time * self.stop_rate + self.moving_time * self.move_rate
 
-        # Guardar resumen antes de resetear
+        logger.info(
+            f"Finalizando viaje. Detenido: {self.stop_time:.2f}s, "
+            f"En movimiento: {self.moving_time:.2f}s, Tarifa: ${fare:.2f}"
+        )
+
         summary = {
             "stop_time": self.stop_time,
             "moving_time": self.moving_time,
             "fare": fare
         }
 
-        # Resetear estado
+        logger.debug(f"Resumen del viaje: {summary}")
+
         self.trip_active = False
         self.state = None
         self.stop_time = 0.0

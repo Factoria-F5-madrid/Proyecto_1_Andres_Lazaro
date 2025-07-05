@@ -1,0 +1,25 @@
+2025-07-05 21:03:49,498 - INFO - Usando tarifas por defecto
+2025-07-05 21:03:49,499 - DEBUG - Instancia de Taximetro creada
+2025-07-05 21:04:00,768 - DEBUG - Comando recibido: start
+2025-07-05 21:04:00,768 - INFO - Iniciando viaje
+2025-07-05 21:04:00,769 - INFO - Viaje iniciado
+2025-07-05 21:04:13,774 - DEBUG - Comando recibido: stop
+2025-07-05 21:04:13,774 - DEBUG - Cambiando estado de stop a stop. Duración anterior: 13.00s
+2025-07-05 21:04:13,774 - INFO - Estado cambiado a: stop
+2025-07-05 21:04:15,629 - DEBUG - Comando recibido: move
+2025-07-05 21:04:15,630 - DEBUG - Cambiando estado de stop a moving. Duración anterior: 1.86s
+2025-07-05 21:04:15,654 - INFO - Estado cambiado a: moving
+2025-07-05 21:04:19,474 - DEBUG - Comando recibido: finish
+2025-07-05 21:04:19,474 - INFO - Finalizando viaje. Detenido: 14.86s, En movimiento: 3.84s, Tarifa: $0.49
+2025-07-05 21:04:19,474 - DEBUG - Resumen del viaje: {'stop_time': 14.861385107040405, 'moving_time': 3.8440399169921875, 'fare': 0.4894296979904175}
+2025-07-05 21:04:19,475 - INFO - Viaje finalizado. Tarifa: $0.49
+2025-07-05 21:04:25,037 - DEBUG - Comando recibido: exit
+2025-07-05 21:04:25,038 - INFO - Aplicación finalizada por el usuario
+2025-07-05 21:05:28,647 - INFO - Usando tarifas por defecto
+2025-07-05 21:05:28,647 - DEBUG - Instancia de Taximetro creada
+2025-07-05 21:05:31,672 - DEBUG - Comando recibido: start
+2025-07-05 21:05:31,672 - INFO - Iniciando viaje
+2025-07-05 21:05:31,672 - INFO - Viaje iniciado
+2025-07-05 21:05:37,847 - DEBUG - Comando recibido: move
+2025-07-05 21:05:37,847 - DEBUG - Cambiando estado de stop a moving. Duración anterior: 6.17s
+2025-07-05 21:05:37,847 - INFO - Estado cambiado a: moving
