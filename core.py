@@ -67,6 +67,19 @@ class Taximetro:
         }
 
         logger.debug(f"Resumen del viaje: {summary}")
+        
+        
+        try:
+            with open("historial.txt", "a", encoding="utf-8") as f:
+                f.write(
+                    f"{time.strftime('%Y-%m-%d %H:%M:%S')} - "
+                    f"Detenido: {self.stop_time:.1f}s, "
+                    f"En movimiento: {self.moving_time:.1f}s, "
+                    f"Tarifa: ${fare:.2f}\n"
+            )
+            logger.info("Resumen guardado en historial.txt")
+        except Exception as e:
+            logger.error(f"Error al guardar el historial: {e}")
 
         self.trip_active = False
         self.state = None

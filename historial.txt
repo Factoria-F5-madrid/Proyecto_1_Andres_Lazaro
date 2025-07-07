@@ -1,0 +1,2 @@
+2025-07-07 13:56:47 - Detenido: 3.7s, En movimiento: 0.0s, Tarifa: $0.22
+2025-07-07 14:27:13 - Detenido: 3.1s, En movimiento: 1.3s, Tarifa: $0.13
