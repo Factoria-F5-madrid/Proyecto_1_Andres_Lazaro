@@ -1,0 +1,38 @@
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de log
+*.log
+taximetro.log
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales
+venv/
+env/
+pyenv.cfg
+
+# Directorios internos de virtualenv
+Include/
+Lib/
+Scripts/
+share/
+site-packages/
+
+# Archivos temporales o de prueba
+*.tmp
+*.bak
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de Streamlit
+.streamlit/
