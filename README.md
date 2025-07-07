@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/banner_taximetro_digital" alt="Diagrama del taxímetro" width="200" />
+  <img src="assets/banner_taximetro_digital.png" alt="Diagrama del taxímetro" width="900" />
 </p>
 
 # 🚖 Taxímetro Digital F5 – 
 
-## 🖥️ Simulador de Tarifa en Tiempo Real con Python y Streamlit
-Taxímetro F5 es una aplicación  que simula un taxímetro digital, permitiendo iniciar y gestionar un viaje desde la línea de comandos o una interfaz web desarrollada con Streamlit. Calcula el costo del trayecto  según el estado del vehículo: detenido o en movimiento.
+## 🖥️ Simulador de Tarifa con Python y Streamlit
+Taxímetro F5 es una aplicación  que simula un taxímetro digital, permitiendo iniciar y gestionar un viaje desde la línea de comandos o una interfaz web desarrollada con Streamlit. Calcula el costo del trayecto según el estado del vehículo: detenido o en movimiento.
 
 ¿Qué hace esta aplicación?
 Este proyecto implementa un taxímetro digital funcional con dos formas de interacción:
