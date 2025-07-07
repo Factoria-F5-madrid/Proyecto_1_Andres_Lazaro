@@ -1,5 +1,6 @@
 # 🚖 Taxímetro Digital F5 – 
-## Simulador de Tarifa en Tiempo Real con Python y Streamlit
+
+## 🖥️ Simulador de Tarifa en Tiempo Real con Python y Streamlit
 Taxímetro F5 es una aplicación  que simula un taxímetro digital, permitiendo iniciar y gestionar un viaje desde la línea de comandos o una interfaz web desarrollada con Streamlit. Calcula el costo del trayecto en tiempo real según el estado del vehículo: detenido o en movimiento.
 
 ¿Qué hace esta aplicación?
@@ -9,14 +10,7 @@ Interfaz de línea de comandos (CLI)
 
 Interfaz web (Streamlit)
 
-### 🌄 Vista Previa
 
-<p align="center">
-  <img src="assets/stramlite-taximetro.png" alt="Front-Streamlit" width="500" />
-</p>
-
-
-A lo largo del viaje, el usuario puede alternar el estado del vehículo entre detenido y en movimiento, y el sistema calculará la tarifa total considerando el tiempo transcurrido en cada estado.
 
 ## 🧭 Diagrama del Flujo del Viaje
 
@@ -26,8 +20,7 @@ A lo largo del viaje, el usuario puede alternar el estado del vehículo entre de
 
 
 
-
-
+```bash
 graph TD
    stateDiagram-v2
     [*] --> Inicio
@@ -37,9 +30,11 @@ graph TD
     Movimiento --> Detenido : stop
     Detenido --> Fin : finish
     Fin --> [*] : mostrar resumen automático
+```
 
+## 🔧 Funcionalidades destacadas
 
-## Funcionalidades destacadas
+```bash
 ✅ Simulación en tiempo real del cálculo de tarifa de un taxi.
 
 🖥️ Dos interfaces disponibles: consola y aplicación web.
@@ -51,6 +46,7 @@ graph TD
 💰 Selección de tarifa personalizada: el usuario puede elegir una tarifa específica entre las disponibles o continuar con una tarifa por defecto.
 
 📊 Visualización clara de los datos del viaje (tiempo, estado, costo actual).
+```
 
 ## 🧩 Estructura del Proyecto
 
@@ -72,7 +68,7 @@ Ejecuta el archivo `taxímetro.py` para usar el taxímetro desde la terminal:
 ```bash
 python taxímetro.py
 
-### 🧾 Comandos Disponibles en la Terminal
+## 🧾 Comandos Disponibles en la Terminal
 
 | Comando  | Acción                                 |
 | -------- | -------------------------------------- |
@@ -83,9 +79,10 @@ python taxímetro.py
 | `exit`   | Sale del programa                      |
 
 
-
+```
 
 ## 🌐 Modo 2: Interfaz Web con Streamlit
+```bash
 
 - Instala Streamlit si no lo tienes:
 pip install streamlit
@@ -98,36 +95,52 @@ Desde la interfaz podrás:
 - Iniciar, detener y mover el vehículo
 - Finalizar el viaje y ver el resumen
 
-
+```
 
 💵 Cálculo de Tarifa
+```bash
 - Tarifa por segundo detenido: 0.02 (por defecto)
 - Tarifa por segundo en movimiento: 0.05 (por defecto)
 Puedes personalizar estos valores desde la terminal o la interfaz web.
+```
 
 📝 Requisitos
+```bash
 - Python 3.7 o superior
 - Streamlit (solo para la interfaz web)
+```
 
 📦 Instalación
+```bash
 git clone https://github.com/tu_usuario/taximetro.git
 cd taximetro
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install -r requirements.txt  # Si lo tienes
-
-
+```
 
 🧾 Logging
-Todos los eventos se registran en taxímetro.log con distintos niveles (INFO, DEBUG, WARNING), lo que facilita la depuración y el seguimiento del uso.
-
-
+```bash
+Todos los eventos se registran en taxímetro.log con distintos niveles  (INFO, DEBUG, WARNING),
+lo que facilita la depuración y el seguimiento del uso.
+```
 
 
 ## 🤝 Contribuciones
-
+```bash
 ¡Las contribuciones son bienvenidas! Abre un issue o haz un fork y crea un pull request.
+```
+
+## 🌄 Vista Previa
+
+<p align="center">
+  <img src="assets/stramlite-taximetro.png" alt="Front-Streamlit" width="500" />
+</p>
 
 
-👤 Autor
-Desarrollado por [Lazaroth93]
+A lo largo del viaje, el usuario puede alternar el estado del vehículo entre detenido y en movimiento, y el sistema calculará la tarifa total considerando el tiempo transcurrido en cada estado.
+
+
+## 👤 Autor
+Desarrollado por [Lazaroth93](https://github.com/Lazaroth93)
+```
