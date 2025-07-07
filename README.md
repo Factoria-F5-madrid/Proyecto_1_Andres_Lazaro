@@ -1,7 +1,11 @@
+<p align="center">
+  <img src="assets/banner_taximetro_digital" alt="Diagrama del taxímetro" width="200" />
+</p>
+
 # 🚖 Taxímetro Digital F5 – 
 
 ## 🖥️ Simulador de Tarifa en Tiempo Real con Python y Streamlit
-Taxímetro F5 es una aplicación  que simula un taxímetro digital, permitiendo iniciar y gestionar un viaje desde la línea de comandos o una interfaz web desarrollada con Streamlit. Calcula el costo del trayecto en tiempo real según el estado del vehículo: detenido o en movimiento.
+Taxímetro F5 es una aplicación  que simula un taxímetro digital, permitiendo iniciar y gestionar un viaje desde la línea de comandos o una interfaz web desarrollada con Streamlit. Calcula el costo del trayecto  según el estado del vehículo: detenido o en movimiento.
 
 ¿Qué hace esta aplicación?
 Este proyecto implementa un taxímetro digital funcional con dos formas de interacción:
@@ -35,7 +39,7 @@ graph TD
 ## 🔧 Funcionalidades destacadas
 
 ```bash
-✅ Simulación en tiempo real del cálculo de tarifa de un taxi.
+✅ Simulación del cálculo de tarifa de un taxi.
 
 🖥️ Dos interfaces disponibles: consola y aplicación web.
 
@@ -56,17 +60,18 @@ graph TD
 | `logger.py`    | Configuración del sistema de logging |
 | `taxímetro.py` | Interfaz de línea de comandos |
 | `app.py`       | Interfaz web con Streamlit |
-| `taxímetro.log`| Archivo de registro generado automáticamente |
-| `README.md`    | Este archivo |
+| `taxímetro.log`  | Registro automático de eventos y estados del sistema durante la ejecución |
+| `historial.txt`  | Archivo de texto que guarda los trayectos pasados |
+
 
 ---
 
 ##  🖥️ Modo 1: Línea de Comandos
 
-Ejecuta el archivo `taxímetro.py` para usar el taxímetro desde la terminal:
+Ejecuta el archivo `taximetro.py` para usar el taxímetro desde la terminal:
 
 ```bash
-python taxímetro.py
+python taximetro.py
 
 ## 🧾 Comandos Disponibles en la Terminal
 
@@ -131,7 +136,7 @@ lo que facilita la depuración y el seguimiento del uso.
 ¡Las contribuciones son bienvenidas! Abre un issue o haz un fork y crea un pull request.
 ```
 
-## 🌄 Vista Previa
+## 🌄 Vista Previa Interfaz Web 
 
 <p align="center">
   <img src="assets/stramlite-taximetro.png" alt="Front-Streamlit" width="500" />
