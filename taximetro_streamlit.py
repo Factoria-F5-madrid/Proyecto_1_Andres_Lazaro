@@ -43,8 +43,8 @@ if st.button("✅ Finalizar viaje") and taxi.trip_active:
     st.write(f"🚙 Tiempo en movimiento: {resumen['moving_time']:.1f} segundos")
     st.write(f"💰 Total a pagar: **${resumen['fare']:.2f}**")
 
-# Mostrar estado actual y tiempo transcurrido si el viaje está activo
+# Mostrar estado actual 
 if taxi.trip_active:
     st.markdown(f"🟡 Estado actual: **{taxi.state.upper()}**")
     elapsed = taxi.elapsed_in_state()
-    st.write(f"⏳ Tiempo en estado actual: {elapsed:.1f} segundos")
+    
