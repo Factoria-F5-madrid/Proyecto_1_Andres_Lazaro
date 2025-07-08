@@ -23,3 +23,72 @@
 2025-07-05 21:05:37,847 - DEBUG - Comando recibido: move
 2025-07-05 21:05:37,847 - DEBUG - Cambiando estado de stop a moving. Duración anterior: 6.17s
 2025-07-05 21:05:37,847 - INFO - Estado cambiado a: moving
+2025-07-08 10:20:43,198 - __main__ - INFO - Usando tarifas por defecto
+2025-07-08 10:20:43,198 - __main__ - DEBUG - Instancia de Taximetro creada
+2025-07-08 10:20:45,903 - __main__ - DEBUG - Comando recibido: start
+2025-07-08 10:20:45,903 - core - INFO - Iniciando viaje
+2025-07-08 10:20:45,903 - __main__ - INFO - Viaje iniciado
+2025-07-08 10:20:54,007 - __main__ - DEBUG - Comando recibido: stop
+2025-07-08 10:20:54,007 - core - DEBUG - Cambiando estado de stop a stop. Duración anterior: 8.10s
+2025-07-08 10:20:54,007 - __main__ - INFO - Estado cambiado a: stop
+2025-07-08 10:20:56,436 - __main__ - DEBUG - Comando recibido: finish
+2025-07-08 10:20:56,436 - core - INFO - Finalizando viaje. Detenido: 10.53s, En movimiento: 0.00s, Tarifa: $0.21
+2025-07-08 10:20:56,436 - core - DEBUG - Resumen del viaje: {'stop_time': 10.53336238861084, 'moving_time': 0.0, 'fare': 0.2106672477722168}
+2025-07-08 10:20:56,437 - core - INFO - Resumen guardado en historial.txt
+2025-07-08 10:21:02,206 - __main__ - DEBUG - Comando recibido: exit
+2025-07-08 10:21:02,206 - __main__ - INFO - Aplicación finalizada por el usuario
+ - INFO - Usando tarifas por defecto
+ - DEBUG - Instancia de Taximetro creada
+ - DEBUG - Comando recibido: start
+ - INFO - Iniciando viaje
+ - INFO - Viaje iniciado
+ - DEBUG - Comando recibido: stop
+ - DEBUG - Cambiando estado de stop a stop. Duración anterior: 1.91s
+ - INFO - Estado cambiado a: stop
+ - DEBUG - Comando recibido: finish
+ - INFO - Finalizando viaje. Detenido: 4.62s, En movimiento: 0.00s, Tarifa: $0.09
+ - DEBUG - Resumen del viaje: {'stop_time': 4.617758274078369, 'moving_time': 0.0, 'fare': 0.09235516548156739}
+ - INFO - Resumen guardado en historial.txt
+ - INFO - Usando tarifas por defecto
+ - DEBUG - Instancia de Taximetro creada
+ - DEBUG - Comando recibido: start
+ - INFO - Iniciando viaje
+ - INFO - Viaje iniciado
+ - DEBUG - Comando recibido: stop
+ - DEBUG - Cambiando estado de stop a stop. Duración anterior: 1.65s
+ - INFO - Estado cambiado a: stop
+ - DEBUG - Comando recibido: finish+
+ - WARNING - Comando no reconocido: finish+
+ - DEBUG - Comando recibido: finish
+ - INFO - Finalizando viaje. Detenido: 6.54s, En movimiento: 0.00s, Tarifa: $0.13
+ - DEBUG - Resumen del viaje: {'stop_time': 6.537244558334351, 'moving_time': 0.0, 'fare': 0.13074489116668703}
+ - INFO - Resumen guardado en historial.txt
+2025-07-08 10:22:49,206 - INFO - Usando tarifas por defecto
+2025-07-08 10:22:49,207 - DEBUG - Instancia de Taximetro creada
+2025-07-08 10:22:50,935 - DEBUG - Comando recibido: start
+2025-07-08 10:22:50,935 - INFO - Iniciando viaje
+2025-07-08 10:22:50,935 - INFO - Viaje iniciado
+2025-07-08 10:22:53,081 - DEBUG - Comando recibido: stop
+2025-07-08 10:22:53,081 - DEBUG - Cambiando estado de stop a stop. Duración anterior: 2.15s
+2025-07-08 10:22:53,081 - INFO - Estado cambiado a: stop
+2025-07-08 10:22:54,661 - DEBUG - Comando recibido: move
+2025-07-08 10:22:54,661 - DEBUG - Cambiando estado de stop a moving. Duración anterior: 1.58s
+2025-07-08 10:22:54,662 - INFO - Estado cambiado a: moving
+2025-07-08 10:22:56,825 - DEBUG - Comando recibido: finish
+2025-07-08 10:22:56,825 - INFO - Finalizando viaje. Detenido: 3.73s, En movimiento: 2.16s, Tarifa: $0.18
+2025-07-08 10:22:56,826 - DEBUG - Resumen del viaje: {'stop_time': 3.726019859313965, 'moving_time': 2.163469076156616, 'fare': 0.18269385099411012}
+2025-07-08 10:22:56,826 - INFO - Resumen guardado en historial.txt
+2025-07-08 13:02:33,527 - INFO - Usuario elige configurar tarifas manualmente
+2025-07-08 13:02:41,307 - DEBUG - Instancia de Taximetro creada
+2025-07-08 13:02:56,843 - DEBUG - Comando recibido: start
+2025-07-08 13:02:56,843 - INFO - Iniciando viaje
+2025-07-08 13:02:56,843 - INFO - Viaje iniciado
+2025-07-08 13:03:13,212 - DEBUG - Comando recibido: smove
+2025-07-08 13:03:13,212 - WARNING - Comando no reconocido: smove
+2025-07-08 13:03:17,621 - DEBUG - Comando recibido: move
+2025-07-08 13:03:17,621 - DEBUG - Cambiando estado de stop a moving. Duración anterior: 20.78s
+2025-07-08 13:03:17,622 - INFO - Estado cambiado a: moving
+2025-07-08 13:03:25,558 - DEBUG - Comando recibido: finish
+2025-07-08 13:03:25,558 - INFO - Finalizando viaje. Detenido: 20.78s, En movimiento: 7.94s, Tarifa: $143.58
+2025-07-08 13:03:25,558 - DEBUG - Resumen del viaje: {'stop_time': 20.77796220779419, 'moving_time': 7.93741774559021, 'fare': 143.576899766922}
+2025-07-08 13:03:25,559 - INFO - Resumen guardado en historial.txt

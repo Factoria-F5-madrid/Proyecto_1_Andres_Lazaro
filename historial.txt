@@ -2,3 +2,17 @@
 2025-07-07 14:27:13 - Detenido: 3.1s, En movimiento: 1.3s, Tarifa: $0.13
 2025-07-07 15:22:06 - Detenido: 7.0s, En movimiento: 2.2s, Tarifa: $0.46
 2025-07-07 15:43:13 - Detenido: 3.3s, En movimiento: 1.2s, Tarifa: $0.13
+2025-07-07 15:46:19 - Detenido: 3.9s, En movimiento: 3.1s, Tarifa: $0.23
+2025-07-07 15:49:42 - Detenido: 1.2s, En movimiento: 0.0s, Tarifa: $0.02
+2025-07-07 15:50:05 - Detenido: 1.5s, En movimiento: 0.9s, Tarifa: $0.08
+2025-07-07 15:50:40 - Detenido: 23.5s, En movimiento: 8.4s, Tarifa: $0.89
+2025-07-08 08:51:14 - Detenido: 12.9s, En movimiento: 0.0s, Tarifa: $0.26
+2025-07-08 08:52:54 - Detenido: 9.1s, En movimiento: 8.5s, Tarifa: $0.60
+2025-07-08 09:48:05 - Detenido: 2.3s, En movimiento: 0.0s, Tarifa: $0.05
+2025-07-08 10:20:56 - Detenido: 10.5s, En movimiento: 0.0s, Tarifa: $0.21
+2025-07-08 10:21:46 - Detenido: 4.6s, En movimiento: 0.0s, Tarifa: $0.09
+2025-07-08 10:22:31 - Detenido: 6.5s, En movimiento: 0.0s, Tarifa: $0.13
+2025-07-08 10:22:56 - Detenido: 3.7s, En movimiento: 2.2s, Tarifa: $0.18
+2025-07-08 11:01:40 - Detenido: 8.5s, En movimiento: 11.0s, Tarifa: $0.72
+2025-07-08 13:03:25 - Detenido: 20.8s, En movimiento: 7.9s, Tarifa: $143.58
+2025-07-08 13:04:09 - Detenido: 14.2s, En movimiento: 3.0s, Tarifa: $1.09
